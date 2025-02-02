@@ -1,0 +1,30 @@
+* {
+    --border: 1px solid rgb(203, 200, 200);
+}
+
+.instructions {
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    border-right: var(--border);
+}
+
+.flag-container {
+    display: flex;
+    column-gap: 3cap;
+}
+
+.flag-container img {
+    width: 25px;
+    cursor: pointer;
+}
+
+.instruction-text {
+    text-align: justify;
+    padding-top: 20px;
+}
+
+.publicity {
+    border-left: var(--border);
+}

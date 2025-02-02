@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorcado</title>
+
+    <link rel="stylesheet" href="styles/main-css.css">
+    <link rel="stylesheet" href="styles/instructions-publicity.css">
+    <link rel="stylesheet" href="styles/main-drawing.css">
+    <link rel="stylesheet" href="styles/header-footer.css">
+    <link rel="stylesheet" href="styles/add.css">
+
+    <script src="scripts/general-function.js"></script>
+    <script src="scripts/header-footer.js"></script>
+
+</head>
+<body>
+    <div class="main-div">
+        <div class="header">
+        </div>
+
+        <div class="main-content">
+            <div class="instructions flex-justify-center">
+            </div>
+            
+            <div class="main-drawing">
+                <div class="drawing-hangman">
+                    Drawing
+                </div>
+                
+                <div class="game-display">
+                    <!--I need to add a minimum width. styles/main-drawing-->
+                    Game Playing
+                </div>
+                
+            </div>
+            
+            <div class="publicity flex-justify-center">
+            </div>
+            
+        </div>
+
+        <div class="footer">    
+        </div>
+
+    </div>
+
+    
+    <script>
+        creatBody();
+        createHeader('AHORCADO');
+        createFooter();
+        createAdds('promiedos-app.jpg', 'https://www.promiedos.com.ar/');
+        createInstructions('english', 'gb', 'English (UK)', 'spanish', 'es', 'Spanish');
+    </script>
+
+</body>
+</html>

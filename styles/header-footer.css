@@ -1,0 +1,104 @@
+/* Styles for the header */
+.shared-header-styles {
+    /* To be eliminated */
+
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 15px;  
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex: 50px;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    padding: 0 20px 0 20px;
+}
+
+.header a {
+    margin-right: 150px;
+    color: white;
+    text-decoration: none;
+}
+
+.header a:hover {
+    background-color: rgb(14, 14, 14);
+}
+
+.second-flex-header {
+    display: flex;
+    column-gap: inherit;
+    padding: 0;
+    width: 100%;
+}
+
+.game-title {
+    margin-right: auto;
+    flex: 1;
+    justify-content: center;
+}
+
+.signup-login {
+    /* To be eliminated */
+    
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: auto;
+}
+
+.shared-button-styles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: 40px;
+    border-radius: 20px;  
+    cursor: pointer;
+}
+
+.signup-button {
+    background-color: rgb(203, 220, 197);
+    color: black;
+    width: 150px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.login-button {
+    background-color: rgb(70, 138, 70);
+    margin-left: -15px;
+}
+
+
+/* Styles for the footes section */
+.footer {
+    background-color: rgb(191, 191, 191);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    padding: 0 20px 0 20px;
+}
+
+.my-name {
+    flex: 1;
+}
+
+.social-media {
+    flex: 1;
+}
+
+.social-media a {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black;
+}
+
+.info {
+    flex: 1;
+}

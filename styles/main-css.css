@@ -1,0 +1,45 @@
+body {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Arial, Helvetica, sans-serif;
+}
+
+.flex-justify-center {
+    display: flex;
+    justify-content: center;
+}
+
+.main-div {
+    display: grid;
+    grid-template-rows: 50px 1fr 50px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.main-content {
+    border-color: red;
+    position: relative;
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*
+This is a preliminary way to make the web good for mobile devices
+@media screen and (orientation:portrait) {
+    .main-content {
+        transform: rotate(90deg);
+        grid-template-columns: 1fr 5fr 1fr;
+    }
+}
+    */
+
